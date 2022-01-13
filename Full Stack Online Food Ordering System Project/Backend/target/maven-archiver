@@ -1,0 +1,4 @@
+maven-archiver
+artifactId=CharmOrder
+groupId=com.charmbit
+version=1.0-SNAPSHOT
