@@ -1,3 +1,3 @@
-Software Sample
+Project Sample
 
 http://3.22.42.68/
