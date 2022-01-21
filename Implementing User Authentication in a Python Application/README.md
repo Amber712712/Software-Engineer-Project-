@@ -4,6 +4,7 @@ Python is actively used in making web applications with many supporting framewor
 Here I used LoginRadius and Flask to implemente authentication and proper handling of user identity information 
 
 Order:
+
 1 Installing LoginRadius Python SDK
 
 2 Setting up Our Flask Server
