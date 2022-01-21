@@ -1,0 +1,5 @@
+from LoginRadius import LoginRadius as LR
+
+LR.API_KEY = "API Key"
+LR.API_SECRET = "API Secret"
+loginradius = LR()
