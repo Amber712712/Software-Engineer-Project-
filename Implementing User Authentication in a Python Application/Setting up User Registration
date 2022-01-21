@@ -1,0 +1,8 @@
+https://{APP_NAME}.hub.loginradius.com/auth.aspx?action={AUTH_ACTION}&return_url={RETURN_URL}
+
+LR_AUTH_PAGE = "https://<APP_NAME>.hub.loginradius.com/auth.aspx?action={}&return_url={}"
+
+@app.route("/register/")
+def register():
+    # redirect the user to our LoginRadius register URL
+    return redirect(LR_AUTH_PAGE.format("register", request.host_url))
