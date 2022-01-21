@@ -1,0 +1,11 @@
+@app.route("/logout/")
+def logout():
+    access_token = session.get("user_acccess_token")
+    if access_token is None:
+        return redirect(url_for("login"))
+
+    # invalidate the access token with LoginRadius API
+    loginradius.authentication.auth_in_validate_access_token(access_token)
+    session.clear()
+
+    return "You have successfully logged out!"
