@@ -1,0 +1,8 @@
+@app.route("/login/")
+def login():
+    access_token = request.args.get("token")
+    if access_token is None:
+        # redirect the user to our LoginRadius login URL if no access token is provided
+        return redirect(LR_AUTH_PAGE.format("login", request.base_url))
+
+    return "You have successfully logged in!"
