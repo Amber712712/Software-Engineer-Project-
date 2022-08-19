@@ -1,3 +1,8 @@
-Project Sample
+Front End: ReactJS and D3
 
-http://3.22.42.68/
+Back End: Spring MVC, Spring Security, Hibernate
+
+Project were deployed using EC2 and Docker
+
+The Project link is: http://3.15.174.74/ 
+
