@@ -1,3 +1,5 @@
+The functions of the Orderonline APP includes user registration, user login, user ordering according to the restaurant menu information, shopping cart creation, user check out
+
 Front End: ReactJS and D3
 
 Back End: Spring MVC, Spring Security, Hibernate
